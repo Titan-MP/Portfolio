@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: repeating-linear-gradient(45deg, gray, #000 10px, #222 10px, #222 20px);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background: linear-gradient(35deg, teal 50%, black 100%);
+  padding: 10px;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+nav h1 {
+  color: white;
+  font-size: 1.5em;
+  margin: 0;
+  background: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px silver;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+main {
+  background: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 90%;
+    margin: 5vh auto;
+}
