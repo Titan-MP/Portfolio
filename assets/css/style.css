@@ -7,12 +7,11 @@ body {
 }
 
 nav {
-  background: linear-gradient(35deg, teal 50%, black 100%);
-  padding: 10px;
-  display: flex;
+    background: linear-gradient(35deg, #c3cdcd 30%, black 90%);
+    padding: 10px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid black;
 }
 
 nav h1 {
@@ -32,11 +31,75 @@ nav a {
   padding: 10px;
 }
 
-main {
-  background: lightgray;
+.row {
+  background: white;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid black;
     width: 90%;
     margin: 5vh auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    width: 20%;
+    margin: 20px;
+    border-right: 5px solid #000;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+}
+
+main {
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+.about img {
+    border-radius: 50%;
+    float: left;
+    width: 150px;
+    margin: 0 20px;
+}
+
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.app {
+    border: 2px solid #000;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px auto;
+    width: 48%;
+}
+
+.app:first-child {
+    width: 100%;
+    height: 30vh;
+}
+
+.app img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 98%;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+    background: black;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    opacity: .65;
 }
